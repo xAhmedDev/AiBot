@@ -18,6 +18,7 @@ const ImagesGenerator = () => {
   }, [imgs]);
 
   const handleMessages = async () => {
+    setImgs([])
     setShowLoader(true);
     const options = {
       method: "POST",
