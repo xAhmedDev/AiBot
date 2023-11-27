@@ -1,0 +1,31 @@
+.btnR {
+  padding: 0 !important;
+  gap: 0 !important;
+}
+
+.btnR a {
+  border: 1px solid var(--color);
+  color: var(--color);
+  outline: none !important;
+  flex: 1;
+  border-radius: 0 !important;
+}
+
+.btnR a.active, .btnR a:hover {
+  border-color: var(--color);
+  color: white;
+  background-color: var(--color);
+}
+
+.btnR a:first-child {
+  border-top-left-radius: 10px !important;
+}
+.btnR a:last-child {
+  border-top-right-radius: 10px !important;
+}
+
+@media (max-width: 769px) {
+  .btnR a.btn {
+    border-radius: 0 !important;
+  }
+}
